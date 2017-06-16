@@ -9,7 +9,7 @@
 	<link rel="icon" href="http://www.csun.edu/sites/default/themes/csun/favicon.ico" type="image/x-icon">
 	{{-- <link rel="stylesheet" type="text/css" href="css/metaphor.css"> --}}
 	<link rel="stylesheet" type="text/css" href="{{asset('css/metaphor.css')}}">
-	<link rel="stylesheet" href="{{ asset('css/app.css') }}">
+	{{-- <link rel="stylesheet" href="{{ asset('css/app.css') }}"> --}}
 	
 	<title>@yield('title', 'Project Title')</title>	
 </head>

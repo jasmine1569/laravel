@@ -41,7 +41,7 @@
 	      </div>
 	    </div>
 	  </div>
-	  <div class="black"></div>
+	  <div class="black-overlay"></div>
 	</div>
 
 		<div class="tab-container">

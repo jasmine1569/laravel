@@ -10,7 +10,7 @@
         <div class="primary-nav__brand"><span class="sr-only">California State University, Northridge (CSUN)</span></div>
       </div>
       <ul class="primary-nav__links">
-        <li><a class="primary-nav__link active" href="{!! url('/dashboard'); !!}">Login</a></li>
+        <li><a class="primary-nav__link active" href="{!! url('/home'); !!}">Login</a></li>
         <li><a class="primary-nav__link" href="#">Help</a></li>
       </ul>
     </div>

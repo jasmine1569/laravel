@@ -15,6 +15,7 @@
 		        </div>
 		      </div>
 
+		      <br>
 		      <div class="row">
 		        <div class="col-sm-6">
 		          <form>
@@ -31,10 +32,8 @@
         	            <input type="password" id="ex2" name="password">
                     </div>
 		          </form>
-		        </div>
-
-		        <div class="box">
-		        	hello world
+		          <br>
+		          <button role="button" class="btn btn-primary"><a href="{!! url('/dashboard'); !!}">LOGIN</a></button>
 		        </div>
 		      </div>
 		    </div>
