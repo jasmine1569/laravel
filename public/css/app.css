@@ -1,5 +1,32 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+.black {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: block;
+  /*z-index: 0;*/
+}
+
+.img-border--thick {
+  border: 5px solid #fff;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.box {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  float: right;
+}
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
