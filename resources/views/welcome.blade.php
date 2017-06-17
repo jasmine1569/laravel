@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,26 +9,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<link rel="icon" href="http://www.csun.edu/sites/default/themes/csun/favicon.ico" type="image/x-icon">
-	{{-- <link rel="stylesheet" type="text/css" href="css/metaphor.css"> --}}
-	<link rel="stylesheet" type="text/css" href="{{asset('css/metaphor.css')}}">
-	{{-- <link rel="stylesheet" href="{{ asset('css/app.css') }}"> --}}
-	
-	<title>@yield('title', 'Laravel Project')</title>
-
-	<style>
-	  .black-overlay {
-	    position: absolute;
-	    top: 0;
-	    right: 0;
-	    left: 0;
-	    bottom: 0;
-	    width: 100%;
-	    height: 100%;
-	    background-color: rgba(0, 0, 0, 0.7);
-	    display: block;
-	    /*z-index: 0;*/
-	  }
-	</style>	
+	<link rel="stylesheet" type="text/css" href="{{url('css/metaphor.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url('css/font-awesome.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{url('css/style.css')}}">
+	<title>@yield('title', 'Laravel Project')</title>	
 </head>
 <body>
 	<div class="header">
@@ -52,16 +34,17 @@
 		</nav>
 	</div>
 
-	 <div class="section" style="position: relative; background: url(https://source.unsplash.com/collection/190727/1600x900) no-repeat center center scroll; background-size: cover;">
-	  <div class="container" style="position: relative; z-index: 1;">
+	 <div class="section box__cover">
+	  <div class="container pre-overlay">
 	    <div class="row">
 	      <div class="col-md-12 type--white">
 	      	<br>
-	        <div style="display: flex; flex-direction: column; justify-content: center; min-height: 500px;">
-	        	<img class="img--fluid"  style="width: 10%; margin: auto; margin-bottom: 30px; margin-top: 0px; display: block;" src="../public/img/white_1.svg" alt="">
-	          <h1 class="type--thin type--center">Summer Immersive</h1>
-	          <p class="type--center"><em>Take your skills to the next level</em></p>
+	        <div class="flex__cover">
+	        	<img class="img--fluid meta-logo"  src="../public/img/white_1.svg" alt="">
+		          <h1 class="type--thin type--center">Summer Immersive</h1>
+		          <p class="type--center"><em>Take your skills to the next level</em></p>
 	         </div>
+	         {{-- <button role="button" class="btn btn-primary"><a href="{!! url('/dashboard'); !!}">LOGIN</a></button> --}}
 	      </div>
 	    </div>
 	  </div>
