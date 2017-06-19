@@ -22,3 +22,7 @@ Route::get('home', function () {
 Route::get('dashboard', function () {
     return view('pages.dashboard');
 });
+
+Route::get('index', function () {
+    return view('pages.index');
+});
