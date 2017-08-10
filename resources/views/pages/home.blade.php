@@ -36,11 +36,6 @@
 		          <button role="button" class="btn btn-primary"><a href="{!! url('/dashboard'); !!}">LOGIN</a></button>
 		        </div>
 		      </div>
-
-		      <div class="box">
-		      	hello world
-		      </div>
-
 		    </div>
 		  </div>
 		</div>

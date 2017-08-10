@@ -7,6 +7,7 @@
 	<meta name="description" content="">
 	<link rel="icon" href="http://www.csun.edu/sites/default/themes/csun/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="{{ url('css/metaphor.css') }}">
+	<link rel="stylesheet" type="text/js" href="{{ url('js/metaphor.js') }}">
 	<link rel="stylesheet" type="text/css" href="{{ url('css/style.css') }}">
 	
 	<title>@yield('title', 'Project Title')</title>	
