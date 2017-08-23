@@ -7,7 +7,8 @@
           <div class="bar"></div>
           <div class="bar"></div>
         </div>
-        <div class="primary-nav__brand"><span class="sr-only">California State University, Northridge (CSUN)</span></div>
+        <a class="primary-nav__brand"><span class="sr-only">California State University, Northridge (CSUN)</span></a>
+        <a class="primary-nav__sub-brand" href="{!! url('/welcome'); !!}">Summer Immersive</a>
       </div>
       <ul class="primary-nav__links">
         <li><a class="primary-nav__link active" href="{!! url('/home'); !!}">Login</a></li>
@@ -15,4 +16,3 @@
       </ul>
     </div>
   </nav>
-</header>

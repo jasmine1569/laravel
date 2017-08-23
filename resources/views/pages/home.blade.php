@@ -5,8 +5,10 @@
 @endsection
 
 @section('structure')
-	<div class="wrapper">
+	<div class="wrapper bg__color--light-gray">
 		<div class="main">
+		<br>
+		<br>
 		  <div class="section">
 		    <div class="container">
 		      <div class="row">
@@ -33,7 +35,14 @@
                     </div>
 		          </form>
 		          <br>
-		          <button role="button" class="btn btn-primary"><a href="{!! url('/dashboard'); !!}">LOGIN</a></button>
+		          <div class="row">
+		          	<div class="col-md-12">
+		          		<button role="button" class="btn btn-primary"><a href="{!! url('/dashboard'); !!}">LOGIN</a></button>
+		          		<div class="pull-right">
+		          			<a class="btn btn-link" href="#">Forgot Password</a>
+		          		</div>
+		          	</div>
+		          </div>
 		        </div>
 		      </div>
 		    </div>
