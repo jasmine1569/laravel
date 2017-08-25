@@ -93,6 +93,23 @@
 						  </tbody>
 					  </table>
 					</div>
+
+					<div class="panel">
+					  <div class="panel__header">
+					    <strong>Panel</strong>
+					  </div>
+					  <div class="panel__content">This is a basic panel w/ a header
+					  <label for="ex0">Comment</label>
+					  <textarea id="ex0" name="ex0" placeholder="Comment..."></textarea>
+					  </div>
+					</div>
+
+
+
+
+
+
+
 				</div>
 			</div>
 		</div>
