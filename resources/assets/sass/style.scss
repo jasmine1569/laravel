@@ -1,9 +1,16 @@
 
-// Variables
+// General
 @import "variables";
+@import "type";
 
 //Helpers
 @import "helpers";
 
-// //Font-awesome
+//Font-Awesome
 @import "bower_components/font-awesome/css/font-awesome.min";
+
+//Components
+@import "scroll";
+@import "banners";
+@import "image";
+@import "animate";

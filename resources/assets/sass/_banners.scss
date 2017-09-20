@@ -1,0 +1,46 @@
+//Home Page Banner
+.flex__cover{
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  min-height: 570px;
+}
+
+.box__cover{
+  position: relative; 
+  background: url(../img/leaf.jpg) no-repeat center center scroll; 
+  background-size: cover;
+}
+
+//Dashboard Page  Banner
+.flex__cover--half{
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  min-height: 215px;
+}
+
+.box__cover--half{
+  position: relative; 
+  background: url(http://www.csun.edu/faculty/imgs/9.jpg) no-repeat center center scroll;    
+  background-size: cover;
+}
+
+//Banner Helpers
+.black-overlay{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(14, 23, 33, 0.7);
+  display: block;
+  /*z-index: 0;*/
+}
+
+.pre-overlay{
+  position: relative;
+  z-index: 1;
+}

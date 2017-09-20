@@ -7,15 +7,15 @@
 @section('structure')
 
 <div class="wrapper">
- <div class="section" style="position: relative; background: url(http://www.csun.edu/faculty/imgs/9.jpg) no-repeat center center scroll; background-size: cover;">
-  <div class="container" style="position: relative; z-index: 1;">
+ <div class="section box__cover--half">
+  <div class="container pre-overlay">
     <div class="row">
       <div class="col-md-3 type--center">
-        <p><img class="img--circle" style="border: 5px solid #fff; text-align: center; max-width: 100%; height: auto;" src="https://cdn.metalab.csun.edu/media/faculty/nerces.kazandjian/avatar.jpg" alt="Nerces Kevork Kazandjian"></p>      </div>
+        <p><img class="img--circle img-border--thick" src="https://cdn.metalab.csun.edu/media/faculty/nerces.kazandjian/avatar.jpg" alt="Nerces Kevork Kazandjian"></p>      </div>
       <div class="col-md-9 type--white">
       <br>
-        <div style="display: flex; flex-direction: column; justify-content: center; min-height: 215px;">
-          <p><span class="tag tag--default-outline"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Alumni</span>&nbsp;&nbsp;<strong class="header--sm type--red">Lecturer</strong> | <a style="color: #fff;" href="#"> Computer Science</a></p>
+        <div class="flex__cover--half">
+          <p><span class="tag tag--default-outline"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Alumni</span>&nbsp;&nbsp;<strong class="header--sm type--red">Lecturer</strong> | <a class="type--white"> Computer Science</a></p>
           <h1 class="type--thin">Nerces Kevork Kazandjian</h1>
           <p><em>Product Owner - META+Lab</em></p>
           <ul class="list--inline type--marginless h5">
@@ -60,7 +60,7 @@
 		<div class="col-md-3">
 			<h5 class="">CONTACTS</5>
 			<p>888-888-888</p>
-			<p>jasmine.beeman@ gmail.com</p>
+			<p>jasmine.beeman&#64;gmail.com</p>
 		</div>
 
 		<div class="col-md-9">

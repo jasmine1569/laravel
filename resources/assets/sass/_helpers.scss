@@ -1,58 +1,13 @@
-.black-overlay{
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    display: block;
-    /*z-index: 0;*/
-  }
-
-  .pre-overlay{
-    position: relative;
-    z-index: 1;
-  }
-
-  .img-border--thick{
-    border: 5px solid #fff; 
-    text-align: center; 
-    max-width: 100%; 
-    height: auto;
-  }
-
-  .box__cover{
-    position: relative; 
-    background: url(https://source.unsplash.com/collection/190727/1600x900) no-repeat center center scroll; 
-    background-size: cover;
-  }
-
   .object--center{
     display: auto;
     margin: auto;
-  }
-
-  .flex__cover{
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    min-height: 550px;
-  }
-
-  .meta-logo{
-    width: 10%; 
-    margin: auto; 
-    margin-bottom: 30px; 
-    margin-top: 0px; 
-    display: block;
   }
 
   .bg__color--light-gray{
     background-color: $light-gray
   }
 
+//Padding Helpers
   .padding-left{
     padding-left: 0px;
   }
@@ -60,3 +15,17 @@
   .padding-top{
     padding-top: 15px;
   }
+
+//Page Helpers
+  .main--helper{
+    min-height: calc(100vh - 130px);
+  }
+
+//Icon Helpers
+ .big-icon {
+    font-size: 32px;
+}
+
+.med-icon{
+  font-size: 22px;
+}
