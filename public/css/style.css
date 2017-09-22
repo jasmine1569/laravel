@@ -35,6 +35,14 @@
   font-size: 22px;
 }
 
+.clear--left {
+  clear: left;
+}
+
+.clear-right {
+  clear: right;
+}
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -3074,12 +3082,30 @@
   flex-direction: column;
   -webkit-box-pack: center;
   justify-content: center;
-  min-height: 570px;
+  min-height: 500px;
 }
 
 .box__cover {
   position: relative;
   background: url(../img/leaf.jpg) no-repeat center center scroll;
+  background-size: cover;
+}
+
+.cover--half {
+  position: relative;
+  background: url(../img/corn.jpg) no-repeat center center scroll;
+  background-size: cover;
+}
+
+.cover--side {
+  position: relative;
+  background: url(../img/pumpkin.jpg) no-repeat center center scroll;
+  background-size: cover;
+}
+
+.box__cover--about {
+  position: relative;
+  background: url(../img/hat.jpg) no-repeat center center scroll;
   background-size: cover;
 }
 
@@ -3096,7 +3122,7 @@
 
 .box__cover--half {
   position: relative;
-  background: url(http://www.csun.edu/faculty/imgs/9.jpg) no-repeat center center scroll;
+  background: url(../img/library.jpg) no-repeat center center scroll;
   background-size: cover;
 }
 
@@ -6200,6 +6226,48 @@
 .slideOutUp {
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
+}
+
+.box {
+  min-height: 415px;
+  padding: 140px 50px 0px 50px;
+}
+
+.box--2 {
+  min-height: 433px;
+}
+
+.box--img--left {
+  position: relative;
+  background: url(../img/pumpkin.jpg) no-repeat center center scroll;
+  background-size: cover;
+}
+
+.box--img--right {
+  position: relative;
+  background: url(../img/pump.jpg) no-repeat center center scroll;
+  background-size: cover;
+}
+
+.box {
+  min-height: 415px;
+}
+
+.tab {
+  width: 150px;
+  height: 45px;
+  padding: 10px;
+  border: 2px solid #d00d2d;
+  border-bottom: none;
+  float: left;
+}
+
+.tab--active {
+  background-color: #d00d2d;
+}
+
+.line {
+  border-bottom: 2px solid #d00d2d;
 }
 
 /*# sourceMappingURL=style.css.map */

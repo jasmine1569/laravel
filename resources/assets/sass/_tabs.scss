@@ -1,0 +1,25 @@
+.tab{
+	width: 150px;
+	height: 45px;
+	padding: 10px;
+	border: 2px solid $danger;
+	border-bottom: none;
+	float: left;
+}
+
+// .tab--outline{
+// 	width: 150px;
+// 	height: 45px;
+// 	padding: 10px;
+// 	border: 2px solid $danger;
+// 	border-bottom: none;
+// 	float: left;
+// }
+
+.tab--active{
+	background-color: $danger;
+}
+
+.line{
+  border-bottom: 2px solid rgba( 208, 13, 45, 1);
+}

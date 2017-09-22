@@ -3,7 +3,7 @@
   display: flex; 
   flex-direction: column; 
   justify-content: center; 
-  min-height: 570px;
+  min-height: 500px;
 }
 
 .box__cover{
@@ -11,6 +11,28 @@
   background: url(../img/leaf.jpg) no-repeat center center scroll; 
   background-size: cover;
 }
+
+.cover--half{
+  position: relative; 
+  background: url(../img/corn.jpg) no-repeat center center scroll; 
+  background-size: cover;
+}
+
+.cover--side{
+  position: relative; 
+  background: url(../img/pumpkin.jpg) no-repeat center center scroll; 
+  background-size: cover;
+  // min-height: 315px;
+}
+
+//About Page Banner
+
+.box__cover--about{
+  position: relative; 
+  background: url(../img/hat.jpg) no-repeat center center scroll; 
+  background-size: cover;
+}
+
 
 //Dashboard Page  Banner
 .flex__cover--half{
@@ -22,7 +44,7 @@
 
 .box__cover--half{
   position: relative; 
-  background: url(http://www.csun.edu/faculty/imgs/9.jpg) no-repeat center center scroll;    
+  background: url(../img/library.jpg) no-repeat center center scroll;    
   background-size: cover;
 }
 
@@ -44,3 +66,4 @@
   position: relative;
   z-index: 1;
 }
+

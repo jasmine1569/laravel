@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-	Laravel Project
+	Fall Immersive Project
 @endsection
 
 @section('structure')

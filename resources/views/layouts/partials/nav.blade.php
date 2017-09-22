@@ -12,7 +12,8 @@
       </div>
       <ul class="primary-nav__links">
         <li><a class="primary-nav__link active" href="{!! url('/home') !!}">Login</a></li>
-        <li><a class="primary-nav__link" href="#">Help</a></li>
+        <li><a class="primary-nav__link" href="{!! url('/about') !!}">About</a></li>
+        <li><a class="primary-nav__link" href="{!! url('/help') !!}">Help</a></li>
       </ul>
     </div>
   </nav>

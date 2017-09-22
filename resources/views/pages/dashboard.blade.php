@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-	Laravel Project
+	Fall Immersive Project
 @endsection
 
 @section('structure')
@@ -93,40 +93,52 @@
 			  </table>
 			</div>
 
-		<div class="panel">
-		  <div class="panel__header">
-		    <strong>Panel</strong>
-		  </div>
-		  <div class="panel__content">This is a basic panel w/ a header
-		  <label for="ex0">Comment</label>
-		  <textarea id="ex0" name="ex0" placeholder="Comment..."></textarea>
-		  </div>
-		</div>
+			<div class="panel">
+			  <div class="panel__header">
+			    <strong>Panel</strong>
+			  </div>
+			  <div class="panel__content">This is a basic panel w/ a header
+			  <label for="ex0">Comment</label>
+			  <textarea id="ex0" name="ex0" placeholder="Comment..."></textarea>
+			  </div>
+			</div>
 
-		<h1 class="type--header type--thin type--red">Login</h1>
-		<div class="form__group">
-			<div class="row">
-				<div class="col-md-6">
-					<label for="ex1">Firstname</label>
-					<input type="text" id="ex1" name="ex1" placeholder="Text...">
+			<h1 class="type--header type--thin type--red">Login</h1>
+			<div class="form__group">
+				<div class="row">
+					<div class="col-md-6">
+						<label for="ex1">Firstname</label>
+						<input type="text" id="ex1" name="ex1" placeholder="Text...">
+					</div>
+
+					<div class="col-md-6">
+						<label for="ex1">Lastname</label>
+						<input type="text" id="ex1" name="ex1" placeholder="Text...">
+					</div>
 				</div>
 
-				<div class="col-md-6">
-					<label for="ex1">Lastname</label>
-					<input type="text" id="ex1" name="ex1" placeholder="Text...">
+			</div>
+
+			<div class="form__group">
+				<div class="row">
+					<div class="col-md-12">
+						<label for="ex1">Username</label>
+						<input type="text" id="ex1" name="ex1" placeholder="Text...">
+					</div>
 				</div>
 			</div>
 
-		</div>
-
-		<div class="form__group">
-			<div class="row">
-				<div class="col-md-12">
-					<label for="ex1">Username</label>
-					<input type="text" id="ex1" name="ex1" placeholder="Text...">
-				</div>
+			<h1 class="type--header type--thin type--red">Tab</h1>
+			<div class="tab tab--active">
+				<p class="type--center type--white type--bold">Tab 1</p>
 			</div>
+			<div class="tab">
+				<p class="type--center type--red type--bold">Tab 2</p>
+			</div>
+			<div class="line clear--left"></div>
 		</div>
 	</div>
+</div>
+
 </div>
 @endsection
