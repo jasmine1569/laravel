@@ -35,6 +35,10 @@
   font-size: 22px;
 }
 
+.margin-icon {
+  margin-right: 10px;
+}
+
 .clear--left {
   clear: left;
 }
@@ -3162,6 +3166,24 @@
   text-align: center;
   max-width: 100%;
   height: auto;
+}
+
+.img--dog {
+  position: relative;
+  background: url(../img/dog.jpg) no-repeat center center scroll;
+  background-size: cover;
+}
+
+.img--coffee {
+  position: relative;
+  background: url(../img/coffee.jpg) no-repeat center center scroll;
+  background-size: cover;
+}
+
+.img--hands {
+  position: relative;
+  background: url(../img/hands.jpg) no-repeat center center scroll;
+  background-size: cover;
 }
 
 /*!

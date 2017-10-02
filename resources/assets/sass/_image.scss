@@ -17,3 +17,21 @@
   max-width: 100%; 
   height: auto;
 }
+
+.img--dog{
+  position: relative; 
+  background: url(../img/dog.jpg) no-repeat center center scroll; 
+  background-size: cover;
+}
+
+.img--coffee{
+  position: relative; 
+  background: url(../img/coffee.jpg) no-repeat center center scroll; 
+  background-size: cover;
+}
+
+.img--hands{
+  position: relative; 
+  background: url(../img/hands.jpg) no-repeat center center scroll; 
+  background-size: cover;
+}

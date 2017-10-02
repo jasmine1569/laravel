@@ -7,6 +7,15 @@
 	float: left;
 }
 
+.tab--active{
+	background-color: $danger;
+}
+
+.line{
+  border-bottom: 2px solid rgba( 208, 13, 45, 1);
+}
+
+
 // .tab--outline{
 // 	width: 150px;
 // 	height: 45px;
@@ -15,11 +24,3 @@
 // 	border-bottom: none;
 // 	float: left;
 // }
-
-.tab--active{
-	background-color: $danger;
-}
-
-.line{
-  border-bottom: 2px solid rgba( 208, 13, 45, 1);
-}

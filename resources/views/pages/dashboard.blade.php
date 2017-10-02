@@ -11,9 +11,8 @@
   <div class="container pre-overlay">
     <div class="row">
       <div class="col-md-3 type--center">
-        <p><img class="img--circle img-border--thick" src="https://cdn.metalab.csun.edu/media/faculty/nerces.kazandjian/avatar.jpg" alt="Nerces Kevork Kazandjian"></p>      </div>
+        <img class="img--circle img-border--thick" src="https://cdn.metalab.csun.edu/media/faculty/nerces.kazandjian/avatar.jpg" alt="Nerces Kevork Kazandjian"></div>
       <div class="col-md-9 type--white">
-      <br>
         <div class="flex__cover--half">
           <p><span class="tag tag--default-outline"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Alumni</span>&nbsp;&nbsp;<strong class="header--sm type--red">Lecturer</strong> | <a class="type--white"> Computer Science</a></p>
           <h1 class="type--thin">Nerces Kevork Kazandjian</h1>
@@ -58,9 +57,10 @@
 <div class="section">
 	<div class="container">
 		<div class="col-md-3">
-			<h5 class="">CONTACTS</5>
-			<p>888-888-888</p>
-			<p>jasmine.beeman&#64;gmail.com</p>
+			<h4 class="type--red">Contact</h4>
+			<hr>
+			<p><i class="fa fa-phone type--red margin-icon" aria-hidden="true"></i>888-888-888</p>
+			<p><i class="fa fa-envelope-o type--red margin-icon" aria-hidden="true"></i>jasmine.beeman&#64;gmail.com</p>
 		</div>
 
 		<div class="col-md-9">

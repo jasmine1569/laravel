@@ -57,27 +57,27 @@
 	<div class="container">
 		<div class="col-md-4">
 			<div class="panel">
-			  <div class="panel__img" style="background-image: url(...)"></div>
+			  <div class="panel__img img--dog"></div>
 			  <div class="panel__content">
-			    <p><strong>Project Pizza</strong></p>
+			    <p><strong>About Dogs</strong></p>
 			    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatem harum cupiditate quae aliquid quia optio suscipit ex temporibus adipisci.</p>
 			  </div>
 			</div>
 		</div>
 		<div class="col-md-4">
 			<div class="panel">
-			  <div class="panel__img" style="background-image: url(...)"></div>
+			  <div class="panel__img img--coffee"></div>
 			  <div class="panel__content">
-			    <p><strong>Project Pizza</strong></p>
+			    <p><strong>About Coffee</strong></p>
 			    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatem harum cupiditate quae aliquid quia optio suscipit ex temporibus adipisci.</p>
 			  </div>
 			</div>
 		</div>
 		<div class="col-md-4">
 			<div class="panel">
-			  <div class="panel__img" style="background-image: url(...)"></div>
+			  <div class="panel__img img--hands"></div>
 			  <div class="panel__content">
-			    <p><strong>Project Pizza</strong></p>
+			    <p><strong>About Nuts</strong></p>
 			    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatem harum cupiditate quae aliquid quia optio suscipit ex temporibus adipisci.</p>
 			  </div>
 			</div>
