@@ -27,18 +27,6 @@
   min-height: calc(100vh - 130px);
 }
 
-.big-icon {
-  font-size: 32px;
-}
-
-.med-icon {
-  font-size: 22px;
-}
-
-.margin-icon {
-  margin-right: 10px;
-}
-
 .clear--left {
   clear: left;
 }
@@ -6290,6 +6278,22 @@
 
 .line {
   border-bottom: 2px solid #d00d2d;
+}
+
+.big-icon {
+  font-size: 32px;
+}
+
+.med-icon {
+  font-size: 22px;
+}
+
+.sm-icon {
+  font-size: 18px;
+}
+
+.margin-icon {
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

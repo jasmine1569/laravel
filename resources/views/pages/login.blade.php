@@ -37,7 +37,7 @@
 		          <br>
 		          <div class="row">
 		          	<div class="col-md-12">
-		          		<button role="button" class="btn btn-primary"><a href="{!! url('/dashboard'); !!}">LOGIN</a></button>
+		          		<button role="button" class="btn btn-primary"><a href="{!! url('/dashboard-home'); !!}">LOGIN</a></button>
 		          		<div class="pull-right">
 		          			<a class="btn btn-link" href="#">Forgot Password</a>
 		          		</div>

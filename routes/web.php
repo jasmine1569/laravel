@@ -15,18 +15,30 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('login', function () {
-    return view('pages.login');
-});
-
-Route::get('dashboard', function () {
-    return view('pages.dashboard');
+Route::get('about', function () {
+    return view('pages.about');
 });
 
 Route::get('help', function () {
     return view('pages.help');
 });
 
-Route::get('about', function () {
-    return view('pages.about');
+Route::get('login', function () {
+    return view('pages.login');
+});
+
+Route::get('dashboard-home', function () {
+    return view('pages.dashboard.dashboard-home');
+});
+
+Route::get('dashboard-profile', function () {
+    return view('pages.dashboard.dashboard-profile');
+});
+
+Route::get('dashboard-class', function () {
+    return view('pages.dashboard.dashboard-class');
+});
+
+Route::get('dashboard-projects', function () {
+    return view('pages.dashboard.dashboard-projects');
 });
