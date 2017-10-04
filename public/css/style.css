@@ -35,6 +35,14 @@
   clear: right;
 }
 
+.margin-top {
+  margin-top: 7px;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -3064,6 +3072,18 @@
     -webkit-transform: translateY(-15px);
     transform: translateY(-15px);
   }
+}
+
+div.scrollmenu {
+  overflow: auto;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
 }
 
 .flex__cover {
@@ -6276,6 +6296,10 @@
   background-color: #d00d2d;
 }
 
+.tab__content {
+  padding: 20px;
+}
+
 .line {
   border-bottom: 2px solid #d00d2d;
 }
@@ -6294,6 +6318,13 @@
 
 .margin-icon {
   margin-right: 10px;
+}
+
+.panel__line {
+  width: auto;
+  height: auto;
+  border-left: 3px solid red;
+  background-color: #FAFAFA;
 }
 
 /*# sourceMappingURL=style.css.map */

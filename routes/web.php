@@ -42,3 +42,20 @@ Route::get('dashboard-class', function () {
 Route::get('dashboard-projects', function () {
     return view('pages.dashboard.dashboard-projects');
 });
+
+Route::get('dashboard-extras', function () {
+    return view('pages.dashboard.dashboard-components');
+});
+
+Route::get('dashboard-awards', function () {
+    return view('pages.dashboard.dashboard-awards');
+});
+
+
+
+
+
+//Test Page
+Route::get('test', function () {
+    return view('pages.test.test');
+});
