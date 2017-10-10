@@ -60,12 +60,13 @@
     <div class="col-md-3">
       <h4 class="type--red">New / Old Components</h4>
       <hr>
-      <p>Tab Component</p>
       <p>Panel Component</p>
-      <p>Login Component</p>
+      <p>Forms Component</p>
+      <p>Tab Component</p>
 
     </div>
 
+    {{--Beginning of Panels--}}
     <div class="col-md-9">
       <h4><i class="fa fa-book margin-icon" aria-hidden="true"></i></i>Panel</h4>
       <hr>
@@ -86,7 +87,136 @@
 
       <div class="row">
         <div class="col-md-12">
-          <h4 class="type--header type--thin"><i class="fa fa-sign-in margin-icon" aria-hidden="true"></i>Login</h4>
+        <h4 class="type--header type--thin">Panel Links</h4>
+        </div>
+        <div class="col-md-4">
+          <div class="panel">
+            <div class="panel__content">
+              <p><strong>Project Salad</strong></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatem harum cupiditate quae aliquid quia optio suscipit ex temporibus adipisci.</p>
+              <p class="pull-left margin-icon"><a href="#">Panel Link</a></p>
+              <p><a href="#">Another Link</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel">
+            <div class="panel__content">
+              <p><strong>Project Salad</strong></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatem harum cupiditate quae aliquid quia optio suscipit ex temporibus adipisci.</p>
+              <p class="pull-left margin-icon"><a href="#">Panel Link</a></p>
+              <p><a href="#">Another Link</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel">
+            <div class="panel__content">
+              <p><strong>Project Salad</strong></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatem harum cupiditate quae aliquid quia optio suscipit ex temporibus adipisci.</p>
+              <p class="pull-left margin-icon"><a href="#">Panel Link</a></p>
+              <p><a href="#">Another Link</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+        <h4 class="type--header type--thin">Panel and Button</h4>
+        </div>
+        <div class="col-md-4">
+          <div class="panel">
+            <div class="panel__content">
+              <p><strong>Project Apple</strong></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatem harum cupiditate quae aliquid quia optio suscipit ex temporibus adipisci.</p>
+              <div class="btn btn-primary btn-sm">Submit</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel">
+            <div class="panel__content">
+              <p><strong>Project Apple</strong></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatem harum cupiditate quae aliquid quia optio suscipit ex temporibus adipisci.</p>
+              <div class="btn btn-primary btn-sm">Submit</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel">
+            <div class="panel__content">
+              <p><strong>Project Apple</strong></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatem harum cupiditate quae aliquid quia optio suscipit ex temporibus adipisci.</p>
+              <div class="btn btn-primary btn-sm">Submit</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+        <h4 class="type--header type--thin">Panel, List, and Links</h4>
+        </div>
+        <div class="col-md-4">
+          <div class="panel">
+            <div class="panel__content">
+              <p><strong>Project Sandwich</strong></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatem harum cupiditate quae aliquid quia optio suscipit ex temporibus adipisci.</p>
+            </div>
+            <ul class="list">
+              <li class="list__item list--full"><a href="#">Side Nav Link</a></li>
+              <li class="list__item list--full"><a href="#">Side Nav Link</a></li>
+              <li class="list__item list--full"><a href="#">Side Nav Link</a></li>
+            </ul>
+            <div class="panel__content">
+              <p class="pull-left margin-icon"><a href="#">Panel Link</a></p>
+              <p><a href="#">Another Link</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel">
+            <div class="panel__content">
+              <p><strong>Project Sandwich</strong></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatem harum cupiditate quae aliquid quia optio suscipit ex temporibus adipisci.</p>
+            </div>
+            <ul class="list">
+              <li class="list__item list--full"><a href="#">Side Nav Link</a></li>
+              <li class="list__item list--full"><a href="#">Side Nav Link</a></li>
+              <li class="list__item list--full"><a href="#">Side Nav Link</a></li>
+            </ul>
+            <div class="panel__content">
+              <p class="pull-left margin-icon"><a href="#">Panel Link</a></p>
+              <p><a href="#">Another Link</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel">
+            <div class="panel__content">
+              <p><strong>Project Sandwich</strong></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatem harum cupiditate quae aliquid quia optio suscipit ex temporibus adipisci.</p>
+            </div>
+            <ul class="list">
+              <li class="list__item list--full"><a href="#">Side Nav Link</a></li>
+              <li class="list__item list--full"><a href="#">Side Nav Link</a></li>
+              <li class="list__item list--full"><a href="#">Side Nav Link</a></li>
+            </ul>
+            <div class="panel__content">
+              <p class="pull-left margin-icon"><a href="#">Panel Link</a></p>
+              <p><a href="#">Another Link</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    {{--End of Panels--}}
+
+    {{--Beginning of Forms--}}
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="type--header type--thin"><i class="fa fa-sign-in margin-icon" aria-hidden="true"></i>Form</h4>
           <div class="form__group">
             <div class="row">
               <div class="col-md-6">

@@ -6327,4 +6327,30 @@ div.scrollmenu a {
   background-color: #FAFAFA;
 }
 
+.list--full {
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.list--full:first-child {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.list--full:last-child {
+  margin-bottom: 0;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.border__less--top {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.border__less--bottom {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -135,6 +135,23 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="row">
+		  <div class="col-md-12">
+		    <ul class="pagination">
+		      <li class="disabled"><span>«</span></li>
+		      <li class="active"><span>1</span></li>
+		      <li><a href="#">2</a></li>
+		      <li><a href="#">3</a></li>
+		      <li><a href="#">4</a></li>
+		      <li class="disabled"><span>...</span></li>
+		      <li><a href="">20</a></li>
+		      <li><a href="#">21</a></li>
+		      <li><a href="#" rel="next">»</a></li>
+		    </ul>
+		  </div>
+
+		</div>
 	</div>
 </div>
 
