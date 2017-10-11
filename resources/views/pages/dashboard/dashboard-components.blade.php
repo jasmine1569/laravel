@@ -124,6 +124,39 @@
 
       <div class="row">
         <div class="col-md-12">
+        <h4 class="type--header type--thin">Panel with Icon</h4>
+        </div>
+        <div class="col-md-4">
+          <div class="panel">
+            <div class="panel__content">
+              <i class="fa fa-bath fa-2x margin-icon--bottom" aria-hidden="true"></i>
+              <p><strong>Project Bath</strong></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatem harum cupiditate quae aliquid quia optio suscipit ex temporibus adipisci.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel">
+            <div class="panel__content">
+              <i class="fa fa-bath fa-2x margin-icon--bottom" aria-hidden="true"></i>
+              <p><strong>Project Bath</strong></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatem harum cupiditate quae aliquid quia optio suscipit ex temporibus adipisci.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel">
+            <div class="panel__content">
+              <i class="fa fa-bath fa-2x margin-icon--bottom" aria-hidden="true"></i>
+              <p><strong>Project Bath</strong></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatem harum cupiditate quae aliquid quia optio suscipit ex temporibus adipisci.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
         <h4 class="type--header type--thin">Panel and Button</h4>
         </div>
         <div class="col-md-4">

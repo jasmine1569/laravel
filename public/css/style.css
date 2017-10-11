@@ -6324,6 +6324,10 @@ div.scrollmenu a {
   margin-right: 10px;
 }
 
+.margin-icon--bottom {
+  margin-bottom: 10px;
+}
+
 .panel__line {
   width: auto;
   height: auto;
