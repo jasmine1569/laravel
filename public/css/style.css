@@ -6,6 +6,10 @@
   font-weight: 300;
 }
 
+.type--gold {
+  color: #fdbf56;
+}
+
 .object--center {
   display: auto;
   margin: auto;

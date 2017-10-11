@@ -16,7 +16,7 @@
         <div class="flex__cover--half">
           <p><span class="tag tag--default-outline"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Alumni</span>&nbsp;&nbsp;<strong class="header--sm type--red">Master</strong> | <a class="type--white"> Arts Media and Communication</a></p>
           <h1 class="type--thin">Alfred Duke</h1>
-          <p><em>Creator - META+Lab</em></p>
+          <p><em>Mentor - META+Lab</em></p>
           <ul class="list--inline type--marginless h5">
             <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
             <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
@@ -61,6 +61,7 @@
       <h4 class="type--red">New / Old Components</h4>
       <hr>
       <p>Panel Component</p>
+      <p>Timeline Component</p>
       <p>Forms Component</p>
       <p>Tab Component</p>
 
@@ -164,7 +165,7 @@
               <p><strong>Project Sandwich</strong></p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatem harum cupiditate quae aliquid quia optio suscipit ex temporibus adipisci.</p>
             </div>
-            <ul class="list">
+            <ul class="list list--hover">
               <li class="list__item list--full"><a href="#">Side Nav Link</a></li>
               <li class="list__item list--full"><a href="#">Side Nav Link</a></li>
               <li class="list__item list--full"><a href="#">Side Nav Link</a></li>
@@ -213,10 +214,67 @@
 
     {{--End of Panels--}}
 
+    {{--Beginning of Timeline--}}
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="type--header type--thin"><i class="fa fa-clock-o margin-icon" aria-hidden="true"></i>Timeline</h4>
+          <ul class="timeline">
+            <li class="timeline__header"><strong>D.Sc.</strong> 1995, Cool University</li>
+            <li class="timeline__header"><strong>M.S.</strong> 1990, Coolest University</li>
+            <li class="timeline__header"><strong>B.S.</strong> 1986, Coolio University</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="type--header type--thin">Timeline without Icons</h4>
+          <ul class="timeline">
+            <li class="timeline__header"><h4><strong>Staff</strong> 2012, California State University, Northridge</h4></li>
+            <hr>
+            <li>
+              <p class="timeline__event"><b>National and State Teacher of the Year</b></p>
+              <p class="timeline__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident rem, totam harum in, ullam hic amet eveniet enim quas nihil magnam, impedit voluptatibus. Optio debitis, fugit quo consequatur natus at?</p>
+            </li>
+            <li>
+              <p class="timeline__event"></i><b>International Reading Association Awards</b></p>
+              <p class="timeline__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident rem, totam harum in, ullam hic amet eveniet enim quas nihil magnam, impedit voluptatibus. Optio debitis, fugit quo consequatur natus at?</p>
+            </li>
+            <li>
+              <p class="timeline__event"><b>Creative 5 A Day Teacher of the Year</b></p>
+              <p class="timeline__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident rem, totam harum in, ullam hic amet eveniet enim quas nihil magnam, impedit voluptatibus. Optio debitis, fugit quo consequatur natus at?</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="type--header type--thin">Timeline with Icons</h4>
+          <ul class="timeline">
+            <li class="timeline__header"><h4><strong>Staff</strong> 2012, California State University, Northridge</h4></li>
+            <hr>
+            <li>
+              <p class="timeline__event"><i class="type--gold fa fa-trophy margin-icon" aria-hidden="true"></i><b>National and State Teacher of the Year</b></p>
+              <p class="timeline__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident rem, totam harum in, ullam hic amet eveniet enim quas nihil magnam, impedit voluptatibus. Optio debitis, fugit quo consequatur natus at?</p>
+            </li>
+            <li>
+              <p class="timeline__event"><i class="type--gold fa fa-trophy margin-icon" aria-hidden="true"></i><b>International Reading Association Awards</b></p>
+              <p class="timeline__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident rem, totam harum in, ullam hic amet eveniet enim quas nihil magnam, impedit voluptatibus. Optio debitis, fugit quo consequatur natus at?</p>
+            </li>
+            <li>
+              <p class="timeline__event"><i class="type--gold fa fa-trophy margin-icon" aria-hidden="true"></i><b>Creative 5 A Day Teacher of the Year</b></p>
+              <p class="timeline__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident rem, totam harum in, ullam hic amet eveniet enim quas nihil magnam, impedit voluptatibus. Optio debitis, fugit quo consequatur natus at?</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    {{--End of Timeline --}}
+
     {{--Beginning of Forms--}}
       <div class="row">
         <div class="col-md-12">
-          <h4 class="type--header type--thin"><i class="fa fa-sign-in margin-icon" aria-hidden="true"></i>Form</h4>
+          <h4 class="type--header type--thin"><i class="fa fa-keyboard-o margin-icon" aria-hidden="true"></i>Form</h4>
           <div class="form__group">
             <div class="row">
               <div class="col-md-6">

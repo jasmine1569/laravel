@@ -16,7 +16,7 @@
         <div class="flex__cover--half">
           <p><span class="tag tag--default-outline"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Alumni</span>&nbsp;&nbsp;<strong class="header--sm type--red">Master</strong> | <a class="type--white"> Arts Media and Communication</a></p>
           <h1 class="type--thin">Alfred Duke</h1>
-          <p><em>Creator - META+Lab</em></p>
+          <p><em>Mentor - META+Lab</em></p>
           <ul class="list--inline type--marginless h5">
             <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
             <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
