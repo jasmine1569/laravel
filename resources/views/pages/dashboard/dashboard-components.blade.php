@@ -64,6 +64,50 @@
       <p>Timeline Component</p>
       <p>Forms Component</p>
       <p>Tab Component</p>
+{{-- 
+      <div class="box__color red pull-left"></div>
+      <div class="box__color blue pull-left"></div>
+      <div class="box__color yellow clear--left"></div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="cf blue__outline">
+        <div class="box__color pull-left red"></div>
+        <div class="box__color pull-right yellow"></div>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="col-md-6">
+        <div class="box__color red"></div>
+        <div class="box__color blue"></div>
+      </div>
+      <div class="col-md-6">
+        <div class="box__color yellow"></div>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="box__color red pull-left"></div>
+            <div class="box__color blue pull-left"></div>
+          </div>
+          <div class="row">
+            <div class="box__color yellow"></div>
+          </div>
+        </div>
+      </div> --}}
 
     </div>
 

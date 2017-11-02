@@ -59,3 +59,29 @@ Route::get('dashboard-awards', function () {
 Route::get('test', function () {
     return view('pages.test.test');
 });
+
+//CSUN Sandbox
+Route::get('csun-info', function () {
+    return view('pages.test.csun.csun-info');
+});
+
+Route::get('csun-products', function () {
+    return view('pages.test.csun.csun-products');
+});
+
+//META+LAB Sandbox
+Route::get('meta-info', function () {
+    return view('pages.test.meta.meta-info');
+});
+
+Route::get('meta-products', function () {
+    return view('pages.test.meta.meta-products');
+});
+
+Route::get('meta-web', function () {
+    return view('pages.test.meta.meta-web');
+});
+
+Route::get('meta-projects', function () {
+    return view('pages.test.meta.meta-projects');
+});
