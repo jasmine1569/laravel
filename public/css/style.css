@@ -3150,24 +3150,28 @@ div.scrollmenu a {
   position: relative;
   background: url(../img/leaf.jpg) no-repeat center center scroll;
   background-size: cover;
+  background-position: center;
 }
 
 .cover--half {
   position: relative;
   background: url(../img/corn.jpg) no-repeat center center scroll;
   background-size: cover;
+  background-position: center;
 }
 
 .cover--side {
   position: relative;
   background: url(../img/pumpkin.jpg) no-repeat center center scroll;
   background-size: cover;
+  background-position: center;
 }
 
 .box__cover--about {
   position: relative;
   background: url(../img/hat.jpg) no-repeat center center scroll;
   background-size: cover;
+  background-position: center;
 }
 
 .flex__cover--half {
@@ -3185,6 +3189,7 @@ div.scrollmenu a {
   position: relative;
   background: url(../img/library.jpg) no-repeat center center scroll;
   background-size: cover;
+  background-position: center;
 }
 
 .black-overlay {
@@ -3203,6 +3208,17 @@ div.scrollmenu a {
 .pre-overlay {
   position: relative;
   z-index: 1;
+}
+
+.flex__cover--etd {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  min-height: 415px;
 }
 
 .meta-logo {
@@ -6320,16 +6336,37 @@ div.scrollmenu a {
   position: relative;
   background: url(../img/pumpkin.jpg) no-repeat center center scroll;
   background-size: cover;
+  background-position: center;
 }
 
 .box--img--right {
   position: relative;
   background: url(../img/pump.jpg) no-repeat center center scroll;
   background-size: cover;
+  background-position: center;
 }
 
 .box {
   min-height: 415px;
+}
+
+.box--2 {
+  min-height: 415px;
+  padding: 100px 50px 0px 50px;
+}
+
+.box--img--left--2 {
+  position: relative;
+  background: url(../img/oldpost.jpg) no-repeat center center scroll;
+  background-size: cover;
+  background-position: center;
+}
+
+.box--img--right--2 {
+  position: relative;
+  background: url(../img/planning.jpg) no-repeat center center scroll;
+  background-size: cover;
+  background-position: center;
 }
 
 .tab {

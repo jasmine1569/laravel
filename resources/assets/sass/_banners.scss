@@ -10,18 +10,21 @@
   position: relative; 
   background: url(../img/leaf.jpg) no-repeat center center scroll; 
   background-size: cover;
+  background-position: center;
 }
 
 .cover--half{
   position: relative; 
   background: url(../img/corn.jpg) no-repeat center center scroll; 
   background-size: cover;
+  background-position: center;
 }
 
 .cover--side{
   position: relative; 
   background: url(../img/pumpkin.jpg) no-repeat center center scroll; 
   background-size: cover;
+  background-position: center;
   // min-height: 315px;
 }
 
@@ -31,6 +34,7 @@
   position: relative; 
   background: url(../img/hat.jpg) no-repeat center center scroll; 
   background-size: cover;
+  background-position: center;
 }
 
 
@@ -46,6 +50,7 @@
   position: relative; 
   background: url(../img/library.jpg) no-repeat center center scroll;    
   background-size: cover;
+  background-position: center;
 }
 
 //Banner Helpers
@@ -65,5 +70,13 @@
 .pre-overlay{
   position: relative;
   z-index: 1;
+}
+
+
+.flex__cover--etd{
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  min-height: 415px;
 }
 
