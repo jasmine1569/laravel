@@ -19,8 +19,8 @@ Route::get('about', function () {
     return view('pages.about');
 });
 
-Route::get('help', function () {
-    return view('pages.help');
+Route::get('resources', function () {
+    return view('pages.resources');
 });
 
 Route::get('login', function () {

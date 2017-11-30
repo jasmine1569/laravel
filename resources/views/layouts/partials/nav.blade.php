@@ -13,7 +13,7 @@
       <ul class="primary-nav__links">
         <li><a class="primary-nav__link active" href="{!! url('login') !!}">Login</a></li>
         <li><a class="primary-nav__link" href="{!! url('about') !!}">About</a></li>
-        <li><a class="primary-nav__link" href="{!! url('help') !!}">Help</a></li>
+        <li><a class="primary-nav__link" href="{!! url('resources') !!}">Resources</a></li>
         <li><a class="primary-nav__link" href="{!! url('csun-info') !!}">CSUN</a></li>
         <li><a class="primary-nav__link" href="{!! url('meta-info') !!}">META+LAB</a></li>
       </ul>
